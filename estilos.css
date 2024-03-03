@@ -68,6 +68,7 @@ body{
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     text-decoration: none;
     font-size: 100px;
     margin-top: -30px;
@@ -176,8 +177,298 @@ body{
 /* card datos*/
 .card{
   background-color: var(--barra);
-  margin-top: -150px;
+  margin-top: -60px;
+}
+
+.caja{
+  display: flex;
+  gap: 6rem;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  justify-content: center;
+}
+.card_caja{
+  display: flex;
+  flex-direction: column;
+ background-color: white;
+  width: 360px;
+  padding: 15px;
+  align-items: center;
+
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+  padding:6px 0;
+}
+.p{
+  text-align: center;
+  font-size: 15px;
+  margin-top:-10px ;
+
+}
+.card__titulo{
+  font-size: 70px;
+  margin-top: -30px;
+  text-align: center;
+  color: var(--texto);
+  padding:  30px   ;
+ 
+}
+.card__parrafo{
+  font-size: 20px;
+  margin-top: -30px;
+  text-align: center;
+  color: var(--texto);
+}
+/* card instructor*/
+
+ .contenedor__cuadrado{
+  background-color: rgb(255, 255, 255);
+  margin-top: -20px ;
+  padding: 150px;
+}
+ .contenedor__cuadrado--carta{
+  display: grid;
+  grid-template-columns: auto auto; 
+  
+ }
+ .contenedor__cuadrado--titulo{
+  font-size: 60px;
+  position: absolute;
+  display: flex;
+  margin-top: 20px;
+  margin-left:200px;
+ }
+ .contenedor__cuadrado--parrafo{
+  font-size:40px;
+  position: absolute;
+  display: flex;
+  margin-top: 150px;
+  margin-left:200px;
+ }
+
+ .derecho{
+  margin-left: 1000px;
+ 
+  
+ }
+ .contenedor__segundo{
+  background-color: rgb(231, 231, 231);
+  padding: 20px;
+  
+  
+ }
+ .cuadro{
+  display: grid;
+  grid-template-columns: auto auto; 
+ }
+.text{
+  font-size: 60px;
+  position: absolute;
+  display: flex;
+  margin-top: 150px;
+  margin-left:1000px;
+
+}
+.paf{
+  font-size:30px;
+  position: absolute;
+  display: flex;
+  margin-top: 300px;
+  margin-left:1000px;
+}
+.imagen_pierna{
+  margin-left: 300px;
+}
+/* card precios*/
+.contenedor__planes{
+  background-color:var(--barra);
+  padding: 10px;
+}
+.planes__contendor{
+  display: flex;
+  gap: 1px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  justify-content: center;
+  margin: 30px;
+
+}
+.bronce{
+  display: flex;
+  flex-direction: column;
+ background-color: white;
+  width: 360px;
+  padding: 15px;px;
+  align-items: center;
+}
+.planes__contendor--titulo{
+font-size: 30px;
+}
+.contenedor__planes--parraf{
+  font-size: 20px;
+margin-top: -25px;
+}
+.botonn{
+    padding: 15px;
+    text-align: center;
+    position: center; 
+    border:none;
+    border-radius: 5px;
+    width: 300px; 
+    font-size: 30px;
+    background-color: var(--texto);
+    color: white;
+}
+.titu{
+  font-size: 70px;
+  margin-top: -30px;
+  text-align: center;
+  color: var(--texto);
+  padding:  30px   ;
+}
+.parraf{
+  text-align: center;
+  font-size: 30px;
+  margin-top:-10px ;
+}
+/* frace*/
+.baner2{
+    position: relative;
+    display: inline-block;
+    width: 1903px;
+    height:858px;
+  
+}
+.baner2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 114%;
+  background-color: rgba(49, 48, 54, 0.904);
+}
+
+.foto{
+  width: 100%;
+  height:100%;
+  margin-top: 0;
+  margin-left: 200px;
+
+}
+.frace{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  font-size: 35px;
+  margin-top: 60px;
+  color: white;
+  
+}
+
+.autora{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  font-size: 35px;
+  margin-top: 170px;
+  color: white;
+  
+
+}
+.formulario{
+  background-color: var(--barra);
+  padding: 50px;
+  
+}
+.formulario--titulo{
+  text-decoration: none;
+  font-size: 35px;
+  margin-top: 60px;
+  color: rgba(49, 48, 54);
+  text-align: center;
+}
+.formulario--texto{
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(49, 48, 54);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="email"] {
+  padding: 15px 10%;
+  border: 1px solid #ccc;
+
+ 
+}
+
+button[type="submit"] {
+  padding: 15px 30px;
+  background-color: rgba(49, 48, 54);
+  color: #fff;
+  border: none;
+
+}
+/* Estilos generales del footer */
+.contenedor__ultimo {
+  background-color:rgba(49, 48, 54);
+  padding: 50px 0;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creamos cuatro columnas */
+  gap: 20px; /* Espacio entre las columnas */
+}
+
+.ultimo__ultimo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.pie_titulo {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.pie__texto {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+.pie__texto a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+  display: block;
+  margin-bottom: 5px;
 }
 
 
+.c1{
+margin-left: 350px;
+margin-top: -180px;
+}
+.c2{
+margin-left: 550px;
+margin-top: -180px;
+}
+.c3{
+margin-left: 850px;
+margin-top: -180px;
+}
+    
+  
 
